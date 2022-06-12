@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Font1;
+    src: url(font-layer-1.ttf);
+}
+
+body {
+    font-family: Font1;
+}
+
+.flipped-v{
+    display: inline-block;
+    transform: rotate(180deg) translateY(-0.15em);
+}
+
+achievement.unlocked {
+    background-color: green;
+}
+
+achievement.locked {
+    background-color: red;
+}
